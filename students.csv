@@ -1,0 +1,13 @@
+Table 1
+,,,,,,,,,
+,Student_ID,Name,Gender,Age,Attendance,Math,Science,English,Computer_Science
+,S001,Aarav,M,19,92,88,91,85,95
+,S002,Diya,F,18,85,76,82,89,90
+,S003,Rahul,M,19,78,65,70,72,75
+,S004,Ananya,F,18,96,94,92,95,98
+,S005,Arjun,M,20,68,55,61,64,70
+,S006,Meera,F,19,89,84,87,91,93
+,S007,Karan,M,18,74,69,73,68,77
+,S008,Sneha,F,19,91,90,88,94,96
+,S009,Vikram,M,20,62,51,58,60,65
+,S010,Ishita,F,18,97,96,95,97,99
