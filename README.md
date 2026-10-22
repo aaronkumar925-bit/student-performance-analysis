@@ -95,6 +95,7 @@ student-performance-analysis/
 ├── students_cleaned.csv
 └── README.md
 
+
 ## Key Findings
 
 - **Highest-performing student:** Ishita — average score of **96.75**
@@ -107,3 +108,11 @@ student-performance-analysis/
 - **Attendance vs. average marks correlation:** **0.99**
 
 The analysis suggests a strong positive relationship between attendance and academic performance in this dataset. However, the dataset is small and created for analytical practice, so the correlation should not be interpreted as proof of causation or generalized to a larger student population.
+
+
+
+## Visualization
+
+### Attendance vs Academic Performance
+
+![Attendance vs Academic Performance](attendance_vs_marks.png)
