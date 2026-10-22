@@ -2,89 +2,108 @@
 
 ## Project Overview
 
-This project analyzes student academic performance using Python and Pandas.
+This project analyzes student academic performance using Python and Pandas. It explores marks, attendance, performance categories, and relationships between attendance and academic results.
 
-The analysis explores student marks, attendance, subject performance, performance categories, and the relationship between attendance and academic performance.
-
-The project also demonstrates basic data cleaning techniques such as handling missing values and removing duplicate records.
+The project also demonstrates data cleaning by identifying duplicate records and handling missing values.
 
 ## Objectives
 
 - Analyze student academic performance
-- Calculate individual student averages
-- Compare average performance across subjects
-- Identify the top-performing students
-- Identify students who may need academic support
-- Analyze attendance and academic performance
-- Detect missing values and duplicate records
-- Clean and export the dataset
-- Create visualizations using Matplotlib
+- Calculate average marks for each student
+- Compare subject-wise performance
+- Identify high and low-performing students
+- Analyze the relationship between attendance and marks
+- Clean missing and duplicate data
+- Visualize important findings
 
 ## Technologies Used
 
 - Python
 - Pandas
 - Matplotlib
-- Spyder
-- Anaconda
+- Git & GitHub
 
 ## Dataset
 
-The dataset contains information about:
+The dataset contains student information including:
 
 - Student ID
 - Name
 - Gender
 - Age
-- Attendance
 - Mathematics marks
 - Science marks
 - English marks
 - Computer Science marks
+- Attendance percentage
 
 ## Data Analysis
 
-The project calculates:
+The analysis calculates:
 
 - Average marks for each student
-- Average marks for each subject
+- Subject-wise average marks
+- Highest-performing student
+- Lowest-performing student
 - Top 3 students
-- Students requiring academic support
-- Performance categories
-- Attendance-performance correlation
+- Students requiring additional academic support
+- Average attendance
+- Correlation between attendance and academic performance
 
 ## Data Cleaning
 
-The project demonstrates:
+To demonstrate a realistic data-analysis workflow, the dataset was intentionally modified to contain:
 
-- Missing value detection
-- Missing value replacement using mean imputation
-- Duplicate record detection
-- Duplicate removal
-- Recalculation of derived values after cleaning
+- A missing Science mark
+- A duplicate student record
+
+The project then:
+
+1. Identified missing values
+2. Identified duplicate records
+3. Removed duplicate records
+4. Filled the missing Science mark using the subject mean
+5. Recalculated student averages
+6. Recalculated performance categories
+
+## Performance Categories
+
+Students were classified based on their average marks:
+
+| Average Marks | Category |
+|---|---|
+| 90 and above | Excellent |
+| 80–89.99 | Good |
+| 70–79.99 | Average |
+| Below 70 | Needs Improvement |
 
 ## Visualizations
 
-The project includes:
+The project includes visualizations for:
 
-1. Attendance vs Average Marks scatter plot
-2. Average Performance by Subject bar chart
-3. Student Performance Category chart
-4. Student Performance Ranking chart
+- Attendance vs Academic Performance
+- Subject-wise Average Marks
+- Performance Category Distribution
+- Student Performance Ranking
+
+### Attendance vs Academic Performance
+
+![Attendance vs Academic Performance](attendance_vs_marks.png)
 
 ## Key Findings
 
-- Computer Science has the highest average subject score in the dataset.
-- Ishita is the highest-performing student based on average marks.
-- Vikram has the lowest average performance.
-- Students with lower attendance generally show lower academic performance in this dataset.
-- The dataset demonstrates a strong positive correlation between attendance and average marks.
+- **Highest-performing student:** Ishita — average score of **96.75**
+- **Lowest-performing student:** Vikram — average score of **58.50**
+- **Top 3 students:** Ishita, Ananya, and Sneha
+- **Highest-performing subject:** Computer Science — average of **85.8**
+- **Lowest-performing subject:** Mathematics — average of **76.8**
+- **Students identified for additional support:** Arjun and Vikram
+- **Average attendance:** **83.2%**
+- **Attendance vs. average marks correlation:** **0.99**
 
-## Important Note
+The analysis shows a strong positive relationship between attendance and academic performance in this dataset.
 
-The dataset used in this project is a small educational dataset created for analysis and demonstration purposes.
-
-The observed correlation between attendance and marks should not be interpreted as proof that attendance directly causes higher academic performance.
+However, the dataset is small and created for analytical practice, so the correlation should **not** be interpreted as proof that attendance causes higher marks or generalized to a larger student population.
 
 ## Project Structure
 
@@ -98,21 +117,8 @@ student-performance-analysis/
 └── README.md
 ```
 
-## Key Findings
+## Conclusion
 
-- **Highest-performing student:** Ishita — average score of **96.75**
-- **Lowest-performing student:** Vikram — average score of **58.50**
-- **Top 3 students:** Ishita, Ananya, and Sneha
-- **Highest-performing subject:** Computer Science — average of **85.8**
-- **Lowest-performing subject:** Mathematics — average of **76.8**
-- **Students identified for additional support:** Arjun and Vikram
-- **Average attendance:** **83.2%**
-- **Attendance vs. average marks correlation:** **0.99**
+This project demonstrates a complete beginner-to-intermediate data analysis workflow using Python and Pandas. It covers data loading, exploratory analysis, data cleaning, statistical analysis, visualization, and interpretation of results.
 
-The analysis suggests a strong positive relationship between attendance and academic performance in this dataset. However, the dataset is small and created for analytical practice, so the correlation should not be interpreted as proof of causation or generalized to a larger student population.
-
-## Visualization
-
-### Attendance vs Academic Performance
-
-![Attendance vs Academic Performance](attendance_vs_marks.png)
+The project provides a foundation for developing more advanced data science projects involving larger datasets, predictive analytics, and machine learning.
