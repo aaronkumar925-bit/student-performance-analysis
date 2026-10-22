@@ -94,3 +94,16 @@ student-performance-analysis/
 ├── analysis.py
 ├── students_cleaned.csv
 └── README.md
+
+## Key Findings
+
+- **Highest-performing student:** Ishita — average score of **96.75**
+- **Lowest-performing student:** Vikram — average score of **58.50**
+- **Top 3 students:** Ishita, Ananya, and Sneha
+- **Highest-performing subject:** Computer Science — average of **85.8**
+- **Lowest-performing subject:** Mathematics — average of **76.8**
+- **Students identified for additional support:** Arjun and Vikram
+- **Average attendance:** **83.2%**
+- **Attendance vs. average marks correlation:** **0.99**
+
+The analysis suggests a strong positive relationship between attendance and academic performance in this dataset. However, the dataset is small and created for analytical practice, so the correlation should not be interpreted as proof of causation or generalized to a larger student population.
