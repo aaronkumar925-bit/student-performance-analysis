@@ -92,9 +92,11 @@ The observed correlation between attendance and marks should not be interpreted 
 student-performance-analysis/
 │
 ├── analysis.py
+├── students.csv
 ├── students_cleaned.csv
+├── attendance_vs_marks.png
 └── README.md
-
+```
 
 ## Key Findings
 
@@ -108,8 +110,6 @@ student-performance-analysis/
 - **Attendance vs. average marks correlation:** **0.99**
 
 The analysis suggests a strong positive relationship between attendance and academic performance in this dataset. However, the dataset is small and created for analytical practice, so the correlation should not be interpreted as proof of causation or generalized to a larger student population.
-
-
 
 ## Visualization
 
